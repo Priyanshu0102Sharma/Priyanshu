@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Zen+Antique+Soft&display=swap');
+
+
+body{
+    background-color:#252546;
+}
+#div1{
+    height: 150px;
+    background-image: linear-gradient(#07000c, #23234a);
+    color:white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-shadow: 0px 0px 6px yellow;
+    font-size: 80px;
+    margin-bottom: 100px;
+    font-family: 'Anton', sans-serif;
+
+}
+#photo{
+    display: block;
+    height: 500px;
+    margin-bottom: 300px;
+}
+#photo img{
+    display: block;
+margin: auto;
+height: 600px;
+box-shadow: 0px 0px 8px 2px rgb(158, 115, 115);
+    
+}
+#name{
+    display: block;
+    text-align: center;
+    position: relative;
+    left: 0px;
+    top: -35px;
+    font-size: 30px;
+    color: white;
+}
+#table{
+display: flex;
+flex-direction: column;
+align-items: center;
+align-self: center;
+    font-size: 80px;
+    text-align: center;
+    color: wheat;
+    border-top: solid rgb(100, 100, 82) 1px;
+}
+table{
+    margin-top: 50px;;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 150px;
+}
+table th{
+    color: yellow;
+}
+
+#codelang{
+    text-align: center;
+        box-shadow: 0px 0px 10px 2px white;
+        width: auto;
+        color: thistle;
+        font-size: 50px;
+    }
+    #codelang li{
+        list-style: none;
+    }
+    #hobbies{
+        text-align: center;
+        box-shadow: 0px 0px 10px 2px white;
+        margin: 80px 0px;
+        color: thistle;
+        width: auto;
+        font-size: 50px;
+    }
+    #hobbies li{
+        list-style: none;
+    }
+    #interest{
+        text-align: center;
+        color: thistle;
+        box-shadow: 0px 0px 10px 2px white;
+        width:auto;
+        font-size: 50px;
+        margin-bottom: 100px;
+    }
+    #interest li{
+        list-style: none;
+    }
+    footer{
+
+        width: 100%;
+    height: 200px;
+    background-image: linear-gradient(#440b5c, #121211);
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    }
+
+    @media(max-width: 600px)
+    {
+
+        #container{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            width: 100%;
+            align-content: center;
+        }
+#div1{
+    width: 100%;
+    font-size: 50px;
+ text-align: center; 
+ margin: 5px;
+}
+        #name{
+            position: relative;
+            top: -40px;
+            
+        
+        }
+        #photo{
+            display: block;
+            margin: auto;
+            margin-bottom: 20px;
+            height: unset;
+            
+        }
+        #photo img{
+            height: 300px;
+            margin: 0px;
+        }
+        #table{
+            display: block;
+            margin: 0px;
+            margin: auto;
+            align-items: center;
+            height: auto;
+            width: auto;
+            font-size: 30px;
+            height: unset;
+        }
+        table{
+            font-size: unset;
+        }
+        #container2{
+            display: block;
+            margin: auto;
+            align-content: center;
+            align-items: center;
+        }
+        #codelang{
+            font-size: 30px;
+            display: block;
+            margin: auto;
+            height: auto;
+            width: auto;
+            align-content: center;
+            align-items: center;
+            margin-top: 5px;
+        }
+        #hobbies{
+            font-size: 30px;
+            display: block;
+            margin: auto;
+            margin-top: 40px;
+            height: auto;
+            width: auto;
+        }
+        #interest{
+            font-size: 30px;
+            display: block;
+            margin: auto;
+            margin-top: 40px;
+            height: auto;
+            width: auto;
+            margin-bottom: 30px;
+        }
+        #footer{
+            width: 100%;
+            margin-top: 70px;
+            font-size: 40px;
+            height: unset;
+        }
+
+    }
